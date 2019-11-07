@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  color: #777D85;
+  text-align: center;
+}
+
+h1 {
+  color: #518DC0;
+  letter-spacing: .2rem;
+}
+
+.nbalist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nbacard {
+  border: 2px solid #518DC0;
+  width: 25%;
+  margin: 2%;
+}
+
+.nbacard h3 {
+  color: #B6885C;
+  border: 1px solid #1C2022;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
