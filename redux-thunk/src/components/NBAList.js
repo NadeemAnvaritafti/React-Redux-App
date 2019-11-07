@@ -16,7 +16,7 @@ const NBAList = props => {
     }
 
     return (
-        <div>
+        <div className='nbalist'>
             {props.error && <p>{props.error}</p>}
             {props.nbaData.map(team => (
                 <NBACard key={team.id} team={team}/>
